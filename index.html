@@ -1,731 +1,1279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>My-Portfolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">My</span>Portfolio</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Quality</a>
-                <a href="#service" class="nav-item nav-link">Projects</a>
-                <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
-                <a href="#blog" class="nav-item nav-link">Blog</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="./Kashif Ur Rahman-Software Engineer.pdf" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+    <nav
+      class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5">
+          <span class="text-primary">My</span>Portfolio
+        </h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+          <a href="#home" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#qualification" class="nav-item nav-link">Quality</a>
+          <a href="#service" class="nav-item nav-link">Projects</a>
+          <a href="#skill" class="nav-item nav-link">Skill</a>
+          <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+          <a href="#testimonial" class="nav-item nav-link">Review</a>
+          <a href="#blog" class="nav-item nav-link">Blog</a>
+          <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
+        <a
+          href="./Kashif Ur Rahman-Software Engineer.pdf"
+          class="btn btn-outline-primary d-none d-lg-block"
+          >Hire Me</a
+        >
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Video Modal End -->
 
-
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/Profile-Pic.jpg" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3" style="-webkit-text-stroke: 2px rgb(246, 244, 223);">
-                        I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2"
-                        style="-webkit-text-stroke: 4px rgb(250, 249, 224);">Kashif Ur Rahman</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Web Developer, Front End Developer, MERN Stack
-                        Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="./Kashif Ur Rahman-Software Engineer.pdf" class="btn btn-outline-light mr-5">Download
-                            CV</a>
-                        <button type="button" class="btn-play" data-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <a href="https://youtu.be/aT5IkopQJmk"
-                            class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</a>
-                    </div>
-                </div>
+    <div
+      class="container-fluid bg-primary d-flex align-items-center mb-5 py-5"
+      id="home"
+      style="min-height: 100vh"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+            <img
+              class="img-fluid w-100 rounded-circle shadow-sm"
+              src="img/Profile-Pic.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7 text-center text-lg-left">
+            <h3
+              class="text-white font-weight-normal mb-3"
+              style="-webkit-text-stroke: 2px rgb(246, 244, 223)"
+            >
+              I'm
+            </h3>
+            <h1
+              class="display-3 text-uppercase text-primary mb-2"
+              style="-webkit-text-stroke: 4px rgb(250, 249, 224)"
+            >
+              Kashif Ur Rahman
+            </h1>
+            <h1
+              class="typed-text-output d-inline font-weight-lighter text-white"
+            ></h1>
+            <div class="typed-text d-none">
+              Web Developer, Front End Developer, MERN Stack Developer
             </div>
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5"
+            >
+              <a
+                href="./Kashif-Ur-Rahman-Software-Engineer.pdf"
+                class="btn btn-outline-light mr-5"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download CV</a
+              >
+              <button
+                type="button"
+                class="btn-play"
+                data-toggle="modal"
+                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                data-target="#videoModal"
+              >
+                <span></span>
+              </button>
+              <a
+                href="https://youtu.be/aT5IkopQJmk"
+                class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block"
+                >Play Video</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="./web devv.avif" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">Web Developer & Software Engineer</h3>
-                    <p>Hello, I'm Kashif Ur Rahman — a passionate Web Developer and Software Engineer with a Bachelor's degree in Software Engineering (BSSE) from Gomal University D.I.Khan (2023). I have nearly 1 year of professional experience in web development, with a strong focus on front-end technologies and the MERN stack. I specialize in building responsive, user-friendly web applications and scalable backend systems. From crafting elegant interfaces to managing databases and designing software architecture, I thrive on turning ideas into reality through clean, efficient code. Committed to continuous learning and innovation, I aim to deliver impactful digital solutions.</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2">
-                            <h6>Name: <span class="text-secondary">Kashif Ur Rahman</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Birthday: <span class="text-secondary">1st January 2002</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Degree: <span class="text-secondary">Bachelor in Software Engineering</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Experience: <span class="text-secondary">1 year</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Phone: <span class="text-secondary">+92 343 9816005</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Email: <span class="text-secondary">kashiikhan377@gmail.com</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Address: <span class="text-secondary">Rawalpindi, Pakistan</span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2">
-                            <h6>Freelance: <span class="text-secondary">Available</span></h6>
-                        </div>
-                    </div>
-                    <a href="https://github.com/Kashif-Ur-Rahman" class="btn btn-outline-primary mr-4">GitHub</a>
-                    <a href="https://www.linkedin.com/in/kashif-ur-rahman/"
-                        class="btn btn-outline-primary">LinkedIn</a>
-
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            About
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            About Me
+          </h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 pb-4 pb-lg-0">
+            <img class="img-fluid rounded w-100" src="./web devv.avif" alt="" />
+          </div>
+          <div class="col-lg-7">
+            <h3 class="mb-4">Web Developer & Software Engineer</h3>
+            <p>
+              Hello, I'm Kashif Ur Rahman — a passionate Web Developer and
+              Software Engineer with a Bachelor's degree in Software Engineering
+              (BSSE) from Gomal University D.I.Khan (2023). I have 1.5 years of
+              professional experience in web development, with a strong focus on
+              front-end technologies and the MERN stack. I specialize in
+              building responsive, user-friendly web applications and scalable
+              backend systems. From crafting elegant interfaces to managing
+              databases and designing software architecture, I thrive on turning
+              ideas into reality through clean, efficient code. Committed to
+              continuous learning and innovation, I aim to deliver impactful
+              digital solutions.
+            </p>
+            <div class="row mb-3">
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Name: <span class="text-secondary">Kashif Ur Rahman</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Birthday: <span class="text-secondary">1st January 2002</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Degree:
+                  <span class="text-secondary"
+                    >Bachelor in Software Engineering</span
+                  >
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Experience: <span class="text-secondary">1.5 years</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Phone: <span class="text-secondary">+92 343 9816005</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Email:
+                  <span class="text-secondary">kashiikhan377@gmail.com</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Address:
+                  <span class="text-secondary">Rawalpindi, Pakistan</span>
+                </h6>
+              </div>
+              <div class="col-sm-6 py-2">
+                <h6>
+                  Freelance: <span class="text-secondary">Available</span>
+                </h6>
+              </div>
+            </div>
+            <a
+              href="https://github.com/Kashif-Ur-Rahman"
+              class="btn btn-outline-primary mr-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/kashif-ur-rahman/"
+              class="btn btn-outline-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- About End -->
 
-
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Matric</h5>
-                            <p class="mb-2"><strong>Iqra Children Academy</strong> | <small>2015 - 2017</small></p>
-                            <p>Total Mark's: 1100 <br> Obtained Mark's: 851 <br> Percentage: 84%</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Intermediate (fsc)</h5>
-                            <p class="mb-2"><strong>Govt. Post Graduate College</strong> | <small>2017 - 2019</small>
-                            </p>
-                            <p>Total Mark's: 1100 <br> Obtained Mark's: 708 <br> Percentage: 64%</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Bachelor in Software Engineering</h5>
-                            <p class="mb-2"><strong>Gomal University</strong> | <small>2019 - 2023</small></p>
-                            <p>Total CGPA: 4 <br> Obtained CGPA: 3.21 <br> Percentage: 80%</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                       
- <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Associate Software Engineer</h5>
-                            <p class="mb-2"><strong>epicx.co.uk</strong> | <small>October 2024 -
-                                    June 2025</small></p>
-                            <p>Worked as an Associate Software Engineer for 8 months, contributing to both front-end and back-end development.
-Developed responsive web applications using JavaScript, React JS, TypeScript, and Tailwind CSS.
-Also worked on server-side logic and APIs using Node.js, Next.js, PostgreSQL, and MongoDB.</p>
-                        </div>
-
-                         <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Web Developer Intern</h5>
-                            <p class="mb-2"><strong>Universal Service Fund (USF)</strong> | <small>April 2024 -
-                                    October 2024</small></p>
-                            <p>Worked as a Web Developer Intern focused on front-end development using React JS, TypeScript, and Tailwind CSS.
-Contributed to building responsive user interfaces and enhancing overall website performance.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute"
-                                style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">MERN Stack Developer Intern</h5>
-                            <p class="mb-2"><strong>Eziline Software House Pvt Ltd</strong> | <small>june 2023 - September
-                                    2023</small></p>
-                            <p>Completed a 3-month MERN Stack Developer Internship at Eziline Software House Pvt Ltd.
-Gained hands-on experience in front-end technologies including HTML, CSS, JavaScript, and React JS.
-Worked on back-end development using Node.js, Express.js, and MongoDB to build full-stack web applications.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Quality
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Education & Expericence
+          </h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Education</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Matric</h5>
+                <p class="mb-2">
+                  <strong>Iqra Children Academy</strong> |
+                  <small>2015 - 2017</small>
+                </p>
+                <p>
+                  Total Mark's: 1100 <br />
+                  Obtained Mark's: 851 <br />
+                  Percentage: 84%
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Intermediate (fsc)</h5>
+                <p class="mb-2">
+                  <strong>Govt. Post Graduate College</strong> |
+                  <small>2017 - 2019</small>
+                </p>
+                <p>
+                  Total Mark's: 1100 <br />
+                  Obtained Mark's: 708 <br />
+                  Percentage: 64%
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  Bachelor in Software Engineering
+                </h5>
+                <p class="mb-2">
+                  <strong>Gomal University</strong> | <small>2019 - 2023</small>
+                </p>
+                <p>
+                  Total CGPA: 4 <br />
+                  Obtained CGPA: 3.21 <br />
+                  Percentage: 80%
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-4">My Expericence</h3>
+            <div class="border-left border-primary pt-2 pl-4 ml-2">
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+
+                <h5 class="font-weight-bold mb-1">Software Engineer</h5>
+
+                <p class="mb-2">
+                  <strong>Lumunate</strong> |
+                  <small>September 2025 – Present</small>
+                </p>
+
+                <p>
+                  Currently working as a Software Engineer since September 2025,
+                  contributing to both front-end and back-end development.
+                  Developed responsive web applications using JavaScript,
+                  React.js, TypeScript, MUI, and Tailwind CSS. Also working on
+                  server-side logic and APIs using Node.js, Next.js, PostgreSQL,
+                  and MongoDB.
+                </p>
+              </div>
+
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  Associate Software Engineer
+                </h5>
+                <p class="mb-2">
+                  <strong>epicx.co.uk</strong> |
+                  <small>October 2024 - June 2025</small>
+                </p>
+                <p>
+                  Worked as an Associate Software Engineer for 8 months,
+                  contributing to both front-end and back-end development.
+                  Developed responsive web applications using JavaScript, React
+                  JS, TypeScript, and Tailwind CSS. Also worked on server-side
+                  logic and APIs using Node.js, Next.js, PostgreSQL, and
+                  MongoDB.
+                </p>
+              </div>
+
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">Web Developer Intern</h5>
+                <p class="mb-2">
+                  <strong>Universal Service Fund (USF)</strong> |
+                  <small>April 2024 - October 2024</small>
+                </p>
+                <p>
+                  Worked as a Web Developer Intern focused on front-end
+                  development using React JS, TypeScript, and Tailwind CSS.
+                  Contributed to building responsive user interfaces and
+                  enhancing overall website performance.
+                </p>
+              </div>
+              <div class="position-relative mb-4">
+                <i
+                  class="far fa-dot-circle text-primary position-absolute"
+                  style="top: 2px; left: -32px"
+                ></i>
+                <h5 class="font-weight-bold mb-1">
+                  MERN Stack Developer Intern
+                </h5>
+                <p class="mb-2">
+                  <strong>Eziline Software House Pvt Ltd</strong> |
+                  <small>june 2023 - September 2023</small>
+                </p>
+                <p>
+                  Completed a 3-month MERN Stack Developer Internship at Eziline
+                  Software House Pvt Ltd. Gained hands-on experience in
+                  front-end technologies including HTML, CSS, JavaScript, and
+                  React JS. Worked on back-end development using Node.js,
+                  Express.js, and MongoDB to build full-stack web applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Qualification End -->
 
-
     <!-- Projects Start -->
     <div class="container-fluid pt-5" id="service">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Service</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
-            </div>
-            <div class="row pb-3 ">
-
- <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i
-                            class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">epicx.co.uk</h4>
-                    </div>
-                    <p>Led the development of the official company website epicx.co.uk using Next.js with a modern, responsive design.
-Built dynamic and reusable UI components using React JS, TypeScript, and Tailwind CSS for scalability and maintainability.
-Integrated smooth navigation, animations, and optimized performance for a seamless user experience.
-Collaborated closely with the design and product teams to align the site with the company’s branding and goals.
-Implemented backend logic, API routes, and server-side rendering using Next.js and Node.js.
-Ensured SEO best practices and responsive behavior across all devices for a high-quality web presence..</p>
-                    <a class="border-bottom border-primary text-decoration-none"
-                        href="https://epicx.co.uk/">View Project</a>
-                </div>
-
-
-
-
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i
-                            class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">Expense Tracker</h4>
-                    </div>
-                    <p>The "Expense Tracker" is a web application built with React JS, utilizing Context API,
-                        useReducer, and useState for state management. This project enables users to effortlessly track
-                        and manage their expenses by providing an intuitive interface to add, view, and categorize
-                        transactions. By leveraging Context API and useReducer, the application ensures efficient state
-                        management and seamless performance, while useState allows for dynamic updates and interaction.
-                        The project demonstrates a practical implementation of modern React concepts to create a
-                        user-friendly and responsive expense tracking tool.</p>
-                    <a class="border-bottom border-primary text-decoration-none"
-                        href="https://github.com/Kashif-Ur-Rahman/Expense-Tracker">View Project</a>
-                </div>
-
-                 <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i
-                            class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">Shopping-Website</h4>
-                    </div>
-                    <p>Developed a fully functional E-commerce website using Next.js with a modern, responsive design.
-Implemented product listing, filtering, cart functionality, and dynamic routing for product detail pages.
-Built reusable components using React JS, TypeScript, and styled the UI with Tailwind CSS.
-Integrated backend APIs to handle product data, user interactions, and cart management.
-Focused on performance, SEO, and user experience across both desktop and mobile devices.</p>
-                    <a class="border-bottom border-primary text-decoration-none"
-                        href="https://github.com/Kashif-Ur-Rahman/Shopping-Website">view Project</a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i
-                            class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">Expense Tracker - RTK</h4>
-                    </div>
-                    <p>Expense Tracker with RTK is a robust and efficient financial management tool developed using
-                        React JS and Redux Toolkit (RTK) for state management. This project leverages the power of RTK
-                        to handle global state with ease and efficiency, while useState is employed for managing local
-                        component state. The application allows users to track their daily expenses, categorize
-                        transactions, and view their financial summary in real-time. By integrating RTK, the project
-                        ensures a scalable and maintainable codebase, making it an excellent example of modern React
-                        development practices.</p>
-                    <a class="border-bottom border-primary text-decoration-none"
-                        href="https://github.com/Kashif-Ur-Rahman/Expense-Tracker-with-RTK">view Project</a>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">React Landing Page</h4>
-                    </div>
-                    <p>The React-TypeScript  Project is a modern, responsive landing page developed using React JS, TypeScript, and Tailwind CSS. This project demonstrates the seamless integration of TypeScript with React, offering a strongly-typed and scalable codebase. Tailwind CSS is used for styling, ensuring a sleek, responsive design with utility-first classes that make customization simple and efficient. The landing page highlights key features, services, and provides an intuitive user experience, showcasing the powerful combination of these technologies in building high-performance web applications.</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Kashif-Ur-Rahman/React-TypeScript-Landing-Page">view Project</a>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"></i>
-                        <h4 class="font-weight-bold m-0">React Todo List </h4>
-                    </div>
-                    <p>React Todo List is a user-friendly and interactive task management application built using React JS. This project allows users to efficiently add, edit, and delete tasks, helping them stay organized and productive. With a clean and responsive interface, the app supports real-time updates, ensuring that the task list is always up-to-date. Leveraging React's component-based architecture, the application is highly modular and easy to extend, making it a perfect example of how React can be used to build dynamic and responsive web applications.
-                    </p>
-                    <a class="border-bottom border-primary text-decoration-none" href="https://github.com/Kashif-Ur-Rahman/Todo-List-in-Reactjs">View Project</a>
-                </div>
-            
-               
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Service
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            My Projects
+          </h1>
         </div>
+        <div class="row pb-3">
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">TCR Properties</h4>
+            </div>
+            <p>
+              Developed the official company website for
+              <a
+                href="https://tcrproperties.ae/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <strong>TCR Properties</strong>
+              </a>
+              using Next.js with a modern, responsive design. Built dynamic and
+              reusable UI components using Next.js, TypeScript, and MUI for
+              scalability and maintainability. Integrated smooth navigation,
+              animations, and optimized performance for a seamless user
+              experience. Collaborated closely with design and product teams to
+              align the site with the company’s branding and goals. Implemented
+              backend logic, API routes, and server-side rendering using Next.js
+              and Node.js. Ensured SEO best practices and responsive behavior
+              across all devices to deliver a high-quality web presence.
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://tcrproperties.ae/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">epicX</h4>
+            </div>
+            <p>
+              Led the development of the official company website
+              <a
+                href="https://epicx.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <strong>epicx.co.uk</strong>
+              </a>
+              using Next.js with a modern, responsive design. Built dynamic and
+              reusable UI components using React JS, TypeScript, and Tailwind
+              CSS for scalability and maintainability. Integrated smooth
+              navigation, animations, and optimized performance for a seamless
+              user experience. Collaborated closely with the design and product
+              teams to align the site with the company’s branding and goals.
+              Implemented backend logic, API routes, and server-side rendering
+              using Next.js and Node.js. Ensured SEO best practices and
+              responsive behavior across all devices for a high-quality web
+              presence..
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://epicx.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">Expense Tracker</h4>
+            </div>
+            <p>
+              The <strong>Expense Tracker</strong> is a web application built
+              with React JS, utilizing Context API, useReducer, and useState for
+              state management. This project enables users to effortlessly track
+              and manage their expenses by providing an intuitive interface to
+              add, view, and categorize transactions. By leveraging Context API
+              and useReducer, the application ensures efficient state management
+              and seamless performance, while useState allows for dynamic
+              updates and interaction. The project demonstrates a practical
+              implementation of modern React concepts to create a user-friendly
+              and responsive expense tracking tool.
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://github.com/Kashif-Ur-Rahman/Expense-Tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">Shopping-Website</h4>
+            </div>
+            <p>
+              Developed a fully functional E-commerce website using Next.js with
+              a modern, responsive design. Implemented product listing,
+              filtering, cart functionality, and dynamic routing for product
+              detail pages. Built reusable components using React JS,
+              TypeScript, and styled the UI with Tailwind CSS. Integrated
+              backend APIs to handle product data, user interactions, and cart
+              management. Focused on performance, SEO, and user experience
+              across both desktop and mobile devices.
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://github.com/Kashif-Ur-Rahman/Shopping-Website"
+              target="_blank"
+              rel="noopener noreferrer"
+              >view Project</a
+            >
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">Notes-App</h4>
+            </div>
+            <p>
+              A modern and responsive Notes Management application built with
+              Next.js, TypeScript, Tailwind CSS, and Prisma. The app allows
+              users to create, edit, search, and delete notes efficiently, with
+              support for tagging and organized data management. Implemented a
+              clean and intuitive UI along with smooth animations using Framer
+              Motion to enhance user experience. Integrated a robust backend
+              with Prisma for efficient database handling, ensuring fast
+              performance and scalability.
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://github.com/Kashif-Ur-Rahman/Notes-App"
+              target="_blank"
+              rel="noopener noreferrer"
+              >view Project</a
+            >
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i
+                class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3 justify-content-center text-center"
+              ></i>
+              <h4 class="font-weight-bold m-0">Courses-Hub</h4>
+            </div>
+            <p>
+              Courses-Hub is a Full-stack online course platform built using
+              Node.js, Express, PostgreSQL, and React. The application enables
+              users to browse, enroll, and manage courses with a smooth and
+              responsive UI. Implemented secure user authentication and
+              authorization, along with Stripe payment integration for seamless
+              transactions. Designed RESTful APIs and optimized database queries
+              to ensure scalability, performance, and a reliable user
+              experience.
+            </p>
+            <a
+              class="border-bottom border-primary text-decoration-none"
+              href="https://github.com/Kashif-Ur-Rahman/Courses-Hub"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Projects End -->
 
-    
     <!-- Skill Start -->
     <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">HTML</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">CSS</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-   <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Tailwind CSS</h6>
-                            <h6 class="font-weight-bold">75%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">JavaScript</h6>
-                            <h6 class="font-weight-bold">80%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">TypeScript</h6>
-                            <h6 class="font-weight-bold">70%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">React JS</h6>
-                            <h6 class="font-weight-bold">80%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-  <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Next JS</h6>
-                            <h6 class="font-weight-bold">60%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Node JS</h6>
-                            <h6 class="font-weight-bold">50%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Skills
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            My Skills
+          </h1>
         </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">HTML</h6>
+                <h6 class="font-weight-bold">90%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">CSS</h6>
+                <h6 class="font-weight-bold">80%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Tailwind CSS</h6>
+                <h6 class="font-weight-bold">75%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-typescript"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">JavaScript</h6>
+                <h6 class="font-weight-bold">70%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">TypeScript</h6>
+                <h6 class="font-weight-bold">60%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">React JS</h6>
+                <h6 class="font-weight-bold">70%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Next JS</h6>
+                <h6 class="font-weight-bold">60%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill mb-4">
+              <div class="d-flex justify-content-between">
+                <h6 class="font-weight-bold">Node JS</h6>
+                <h6 class="font-weight-bold">30%</h6>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Skill End -->
 
-
-
     <!-- Portfolio Start -->
     <div class="container-fluid pt-5 pb-3" id="portfolio">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-01.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-01.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-02.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-02.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-03.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-03.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-04.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-04.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-05.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-05.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/project-06.png" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/project-06.png" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Gallery
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            My Portfolio
+          </h1>
         </div>
+        <div class="row">
+          <div class="col-12 text-center mb-2">
+            <ul class="list-inline mb-4" id="portfolio-flters">
+              <li
+                class="btn btn-sm btn-outline-primary m-1 active"
+                data-filter="*"
+              >
+                All
+              </li>
+              <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".first"
+              >
+                Design
+              </li>
+              <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".second"
+              >
+                Development
+              </li>
+              <li
+                class="btn btn-sm btn-outline-primary m-1"
+                data-filter=".third"
+              >
+                Marketing
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/tcr-hero.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/tcr-hero.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/epicx-hero.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/epicx-hero.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/project-01.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/project-01.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/project-04.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/project-04.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/project-05.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/project-05.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/project-06.png"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/project-06.png" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Portfolio End -->
 
-
     <!-- Testimonial Start -->
     <div class="container-fluid py-5" id="testimonial">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Review</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">"Working with the team on our MERN stack website has been a fantastic experience. They took our ideas and turned them into a sleek, modern, and fully functional site that perfectly meets our needs. The attention to detail, from the responsive design to the seamless integration of front-end and back-end technologies, is impressive. The team was always communicative and responsive to our feedback, ensuring the project was delivered on time and exceeded our expectations. We couldn't be happier with the final product!"</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/danish-pic.jpg"
-                                style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Mansoor Ahmad</h5>
-                            <span>Network Engineer</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4 ">"I had the pleasure of working with Kashif Ur Rahman on our recent project, and their expertise and dedication were outstanding. They delivered high-quality solutions efficiently, demonstrating strong problem-solving skills and attention to detail. Their ability to communicate complex technical concepts clearly made the entire process smooth and productive. I highly recommend kashif Ur Rahman for any software development needs."</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/aashiq-pic.jpg"
-                                style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Aashiq Khan</h5>
-                            <span>Software Engineer</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Absolutely thrilled with the product! The team at Eziline
-                                Software House delivered exactly what we needed, and more. From the seamless user
-                                experience to the innovative features, it's clear that they truly understand our
-                                requirements and go above and beyond to exceed expectations. Highly recommend their
-                                services to anyone looking for top-notch solutions</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/CV-Image.png"
-                                style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Ahmad KHan</h5>
-                            <span>Web Developer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Review
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Clients Say
+          </h1>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="owl-carousel testimonial-carousel">
+              <div class="text-center">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <h4 class="font-weight-light mb-4">
+                  "Working with the team on our MERN stack website has been a
+                  fantastic experience. They took our ideas and turned them into
+                  a sleek, modern, and fully functional site that perfectly
+                  meets our needs. The attention to detail, from the responsive
+                  design to the seamless integration of front-end and back-end
+                  technologies, is impressive. The team was always communicative
+                  and responsive to our feedback, ensuring the project was
+                  delivered on time and exceeded our expectations. We couldn't
+                  be happier with the final product!"
+                </h4>
+                <img
+                  class="img-fluid rounded-circle mx-auto mb-3"
+                  src="img/danish-pic.jpg"
+                  style="width: 80px; height: 80px"
+                />
+                <h5 class="font-weight-bold m-0">Mansoor Ahmad</h5>
+                <span>Network Engineer</span>
+              </div>
+              <div class="text-center">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <h4 class="font-weight-light mb-4">
+                  "I had the pleasure of working with Kashif Ur Rahman on our
+                  recent project, and their expertise and dedication were
+                  outstanding. They delivered high-quality solutions
+                  efficiently, demonstrating strong problem-solving skills and
+                  attention to detail. Their ability to communicate complex
+                  technical concepts clearly made the entire process smooth and
+                  productive. I highly recommend kashif Ur Rahman for any
+                  software development needs."
+                </h4>
+                <img
+                  class="img-fluid rounded-circle mx-auto mb-3"
+                  src="img/aashiq-pic.jpg"
+                  style="width: 80px; height: 80px"
+                />
+                <h5 class="font-weight-bold m-0">Aashiq Khan</h5>
+                <span>Software Engineer</span>
+              </div>
+              <div class="text-center">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <h4 class="font-weight-light mb-4">
+                  Absolutely thrilled with the product! The team at Eziline
+                  Software House delivered exactly what we needed, and more.
+                  From the seamless user experience to the innovative features,
+                  it's clear that they truly understand our requirements and go
+                  above and beyond to exceed expectations. Highly recommend
+                  their services to anyone looking for top-notch solutions
+                </h4>
+                <img
+                  class="img-fluid rounded-circle mx-auto mb-3"
+                  src="img/CV-Image.png"
+                  style="width: 80px; height: 80px"
+                />
+                <h5 class="font-weight-bold m-0">Ahmad KHan</h5>
+                <span>Web Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Testimonial End -->
 
-
     <!-- Blog Start -->
     <div class="container-fluid pt-5" id="blog">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Blogs</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Latest Blogs</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">How to Start Coding: The Ultimate Guide for Beginner Programmers
-                    </h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">02</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">The best laptops for blogging in 2023</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">03</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Newly Launched Apple’s Saving Account Records Nearly $1 Billion
-                        in Just 4 Days</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-4.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">04</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">The Who, What, Why, & How of Digital Marketing</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-5.gif" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">05</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Al Ain University Offering High-Paid Job Vacancies with Salaries
-                        Above 8500 Dirhams</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-6.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">06</h4>
-                            <small class="text-white text-uppercase">May</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Deals: AT&T Taking 15% Off Apple's MagSafe Accessories</h5>
-                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Blogs
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Latest Blogs
+          </h1>
         </div>
+        <div class="row">
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-1.jpg"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">01</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              How to Start Coding: The Ultimate Guide for Beginner Programmers
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-2.jpg"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">02</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              The best laptops for blogging in 2023
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-3.jpg"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">03</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              Newly Launched Apple’s Saving Account Records Nearly $1 Billion in
+              Just 4 Days
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-4.jpg"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">04</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              The Who, What, Why, & How of Digital Marketing
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-5.gif"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">05</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              Al Ain University Offering High-Paid Job Vacancies with Salaries
+              Above 8500 Dirhams
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <img
+                class="img-fluid rounded w-100"
+                src="img/blog-6.jpg"
+                alt=""
+              />
+              <div class="blog-date">
+                <h4 class="font-weight-bold mb-n1">06</h4>
+                <small class="text-white text-uppercase">May</small>
+              </div>
+            </div>
+            <h5 class="font-weight-medium mb-4">
+              Deals: AT&T Taking 15% Off Apple's MagSafe Accessories
+            </h5>
+            <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Blog End -->
 
-
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #ea087d;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required"
-                                        data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #ea087d"
+          >
+            Contact
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Contact Me
+          </h1>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-form text-center">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="form-row">
+                  <div class="control-group col-sm-6">
+                    <input
+                      type="text"
+                      class="form-control p-4"
+                      id="name"
+                      placeholder="Your Name"
+                      required="required"
+                      data-validation-required-message="Please enter your name"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="control-group col-sm-6">
+                    <input
+                      type="email"
+                      class="form-control p-4"
+                      id="email"
+                      placeholder="Your Email"
+                      required="required"
+                      data-validation-required-message="Please enter your email"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control p-4"
+                    id="subject"
+                    placeholder="Subject"
+                    required="required"
+                    data-validation-required-message="Please enter a subject"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <textarea
+                    class="form-control py-3 px-4"
+                    rows="5"
+                    id="message"
+                    placeholder="Message"
+                    required="required"
+                    data-validation-required-message="Please enter your message"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-outline-primary"
+                    type="submit"
+                    id="sendMessageButton"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Contact End -->
 
-
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://twitter.com/DreaMy___boy"><i
-                        class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://web.facebook.com/kashif.dilsoz.1"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2"
-                    href="https://www.linkedin.com/in/kashif-ur-rahman/"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social"
-                    href="https://instagram.com/alone_____walkerr?igshid=ZGUzMzM3NWJiOQ=="><i
-                        class="fab fa-instagram"></i></a>
-            </div>
-            <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#"></a>. All Rights Reserved. Designed by
-                <a class="text-white font-weight-bold" href="https://htmlcodex.com">Kashif Ur Rahman</a>
-            </p>
+    <div
+      class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5"
+    >
+      <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://twitter.com/DreaMy___boy"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://web.facebook.com/kashif.dilsoz.1"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social mr-2"
+            href="https://www.linkedin.com/in/kashif-ur-rahman/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="btn btn-light btn-social"
+            href="https://instagram.com/alone_____walkerr?igshid=ZGUzMzM3NWJiOQ=="
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a class="text-white" href="#">Privacy</a>
+          <span class="px-3">|</span>
+          <a class="text-white" href="#">Terms</a>
+          <span class="px-3">|</span>
+          <a class="text-white" href="#">FAQs</a>
+          <span class="px-3">|</span>
+          <a class="text-white" href="#">Help</a>
+        </div>
+        <p class="m-0">
+          &copy; <a class="text-white font-weight-bold" href="#"></a>. All
+          Rights Reserved. Designed by
+          <a class="text-white font-weight-bold" href="https://htmlcodex.com"
+            >Kashif Ur Rahman</a
+          >
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
 
@@ -733,8 +1281,9 @@ Focused on performance, SEO, and user experience across both desktop and mobile 
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -752,6 +1301,5 @@ Focused on performance, SEO, and user experience across both desktop and mobile 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
