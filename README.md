@@ -1,8 +1,6 @@
 # My-Portfolio
 
-[![Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://vercel.app/) [![Deploy](https://img.shields.io/badge/deploy-vercel-black?logo=vercel)](https://vercel.app/)
-
-Freelancer portfolio website and repository for personal use.
+<h1>Freelancer portfolio website and repository for personal use.</h1>
 
 ## Overview
 
@@ -11,6 +9,10 @@ This repository contains a responsive, single-page freelancer portfolio. It incl
 ## Demo
 
 - Open the site locally: [index.html](index.html)
+
+## Live Demo
+
+- Vercel: https://kashif-ur-rahman-portfolio.vercel.app/
 
 ## Quick Start
 
@@ -63,9 +65,5 @@ Contributions are welcome. Typical contributions:
 - Updating images or adding project case studies
 - Improving accessibility or responsiveness
 
-
-## Live Demo
-
-- Vercel: https://kashif-ur-rahman-portfolio.vercel.app/
 
 
