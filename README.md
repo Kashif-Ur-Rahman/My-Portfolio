@@ -1,6 +1,6 @@
 # My-Portfolio
 
-<h1>Freelancer portfolio website and repository for personal use.</h1>
+<h3>Freelancer portfolio website and repository for personal use.</h3>
 
 ## Overview
 
